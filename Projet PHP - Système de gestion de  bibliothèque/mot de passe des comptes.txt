@@ -1,0 +1,31 @@
+compte étudiant: huyengo@example.com -- pour la connexion étudiant
+mot de passe: 360210
+
+librarymanagementwebsite@gmail.com -- pour la connexion du bibliothécaire 
+librarian
+
+
+
+
+librarymanagementwebsiteparis@gmail.com --Cet e-mail apparaîtra dans la réponse
+ngothihuyen
+
+
+
+
+huyenngothi0206@gmail.com --Cet e-mail est utilisé pour le SMTP.
+btzv hpul gsdq wtiy
+
+
+
+Accédez à config.inc.php pour ajouter un mot de passe. -> 
+/* Authentication type and info */
+$cfg['Servers'][$i]['auth_type'] = 'config';
+$cfg['Servers'][$i]['user'] = 'root';
+$cfg['Servers'][$i]['password'] = '123456'; 
+$cfg['Servers'][$i]['extension'] = 'mysqli';
+$cfg['Servers'][$i]['AllowNoPassword'] = true;
+$cfg['Lang'] = '';
+
+
+
